@@ -6,7 +6,7 @@
 
 
 The printf function sends formatted output to stdout.
-A custom _printf() for learning purposes was developed by cohort  #9 students Benjamin and Lucy.
+A custom _printf() for learning purposes was developed by cohort  #10 students Benjamin and Lucy.
 _printf() function format string is a character string, beginning and ending in its initial shift state, if any. 
 These arguments are placed using the percentage '%' operator
 
@@ -86,7 +86,7 @@ Specifier                |Output                        |Examples |
 |----------------|-------------------------------|-----------------------------|
 | `c` | Character | y |
 | `d` or `i` | Signed integer | 1024, -1024 |
-| `s` | String of characters | Hello Holberton |
+| `s` | String of characters | Hello main |
 | `b` | Binary Representation of unsigned integer | 01010110 |
 | `u` | Unsigned integer | 1024 |
 | `o` | Unsigned octal | 432 |
