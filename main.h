@@ -29,5 +29,7 @@ void _recursion_integer(int a);
 int _print_int_binary(va_list args);
 void _recursion_int_binary(int a);
 int _validate_char(char _type);
+int hex_check(int num, char x);
+void write_base(char *str);
 
 #endif 
