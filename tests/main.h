@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
@@ -19,9 +19,6 @@ int _write(char c);
 int _printf(const char *format, ...);
 int _print_a_char(va_list args);
 int _print_a_string(va_list args);
-int _print_hex(va_list args);
-int _print_a_hex(va_list args);
-int _print_octal(va_list args);
 int _print_unsigned_int(va_list args);
 int _print_format(const char *format, va_list args);
 int _print_spec(char format, va_list args);
@@ -31,6 +28,5 @@ void _recursion_integer(int a);
 int _print_int_binary(va_list args);
 void _recursion_int_binary(int a);
 int _validate_char(char _type);
-int hex_check(int num, char x)se_len(int num, int base);
 
 #endif 
